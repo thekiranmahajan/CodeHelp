@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#Video_09-Forms01</title>
+  </head>
+  <body>
+    <form>
+      <h1>Event Registration</h1>
+      <label for="nameOfUser">Name</label>
+      <br />
+      <input type="text" id="nameOfUser" />
+      <br />
+      <label for="emailId">Email</label>
+      <br />
+      <input type="email" name="emailId" id="emailId" />
+      <br />
+      <label for="PhoneNo">Phone</label>
+      <br />
+      <input type="tel" name="phoneNo" id="phoneNo" />
+      <br />
+      <label for="Occupations">Occupations:</label>
+      <br />
+      <select name="Occupations" id="Occupations">
+        <option value="Student">Student</option>
+        <option value="Pro">Professional</option>
+        <option value="Other">Other</option>
+      </select>
+      <br />
+      <label for="headingInterest">Topics Of Interest</label>
+      <br />
+      <br />
+      <input type="checkbox" name="interest" id="HTML" />
+      <br />
+      <label for="HTML">HTML</label>
+      <br />
+      <input type="checkbox" name="interest" id="CSS" />
+      <br />
+
+      <label for="CSS">CSS</label>
+      <br />
+      <input type="checkbox" name="interest" id="JavaScript" />
+      <br />
+      <label for="JavaScript">JavaScript</label>
+      <br />
+      <br />
+      <label for="comments">Comments:</label>
+      <br />
+      <textarea
+        name="commentBox"
+        id="commentBox"
+        cols="30"
+        rows="10"
+        placeholder="Share your thoughts here"
+      ></textarea>
+      <input type="button" value="Register" />
+    </form>
+  </body>
+</html>

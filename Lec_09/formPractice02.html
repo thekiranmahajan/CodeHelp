@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#Video_09-Forms02</title>
+  </head>
+  <body>
+    <form>
+      <h3>Job Application</h3>
+      <br />
+      <label for="Name">Name</label>
+      <br />
+      <input type="text" id="Name" />
+      <br />
+      <label for="emailId">Email</label>
+      <br />
+      <input type="email" name="emailId" id="emailId" />
+      <br />
+      <label for="phoneNo">Phone</label>
+      <br />
+      <input type="tel" name="phoneNo" id="phoneNo" />
+      <br />
+      <label for="resumeFile">Resume</label>
+      <br />
+      <input type="file" name="resumeFile" id="resumeFile" />
+      <br />
+      <label for="experienceYears">Experience In experience Years</label>
+      <br />
+      <input
+        type="number"
+        name="experienceYears"
+        id="experienceYears"
+        min="0"
+        max="50"
+      />
+      <br />
+      <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" name="languageCheckbox" id="HTMLCheckbox" />
+        <br />
+        <label for="HTMLCheckbox">HTML</label>
+        <br />
+        <input type="checkbox" name="languageCheckbox" id="CSSCheckbox" />
+        <br />
+        <label for="CSSCheckbox">CSS</label>
+        <br />
+        <input
+          type="checkbox"
+          name="languageCheckbox"
+          id="JavaScriptCheckbox"
+        />
+        <br />
+        <label for="JavaScriptCheckbox">JavaScript</label>
+      </fieldset>
+      <br />
+      <label for="highestEDU">Highest Education:</label>
+      <br />
+      <select name="highestEDU" id="highestEDU">
+        <option value="highSchool">High School</option>
+        <option value="associates">Associate's Degree</option>
+        <option value="bachelor">Bachelor's Degree</option>
+        <option value="masters">Master's Degree</option>
+        <option value="phd">PhD</option>
+      </select>
+      <br />
+      <label for="available">Availability:</label>
+      <br />
+      <input type="radio" name= "Time" fullTime">
+      <br />
+      <label for="fullTime">Full Time</label>
+      <br />
+      <input type="radio" name="Time" id="partTime" />
+      <br />
+      <label for="partTime">Part Time</label>
+      <br />
+      <label for="commentBox">Additional Comments:</label>
+      <br />
+      <textarea name="commentBox" id="commentBox" cols="40" rows="2"></textarea>
+    </form>
+  </body>
+</html>

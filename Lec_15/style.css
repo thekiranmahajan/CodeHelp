@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0; /*---> It sets margin zero for whole doc*/
+  padding: 0; /*---> It sets padding zero for whole doc*/
+  box-sizing: border-box; /* ---->The box-sizing property allows us to include the padding and border in an element's total width and height.If you set box-sizing: border-box; on an element, padding, and border are included in the width and height. */
+}
+
+#headingOne {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #ff5733;
+  border: 5px solid rgb(17, 140, 156);
+  padding: 20px;
+  margin: 20px;
+}
+p {
+  font-weight: 500;
+  margin: 10px; /* margin: all sides */
+  border: 4px solid black; /* border: size style color */
+  border-radius: 5px; /* corner */
+  color: azure;
+  font-family: "Poppins", sans-serif;
+}
+.firstPara {
+  margin-top: 50px;
+  background-color: #c70039;
+  padding: 20px; /* padding: all sides */
+}
+.secondPara {
+  border-style: dashed;
+  background-color: #ffc300;
+  padding: 40px 20px; /* pading: x y */
+  margin: 40px 80px; /* margin: x y */
+}
+.thirdPara {
+  border-style: ridge;
+  color: #71797e;
+  background-color: #daf7a6;
+  padding: 15px 20px 18px 25px; /* pading: top right bottom left */
+  margin: 30px 10px 0px 10px; /* margin: top right bottom left */
+}

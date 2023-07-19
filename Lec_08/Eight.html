@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#Video_08</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Form elements</legend>
+        <!-- Forms-- forms are nothing but a entity taking user inputs -->
+        <!-- "for" of label and "id" of input must be same for mapping -->
+        <!-- attri. value and placeholder are different -->
+        <label for="valueShow">Value attribute</label>
+        <input type="text" id="valueShow" value="Not a placeholder" />
+        <br /><br />
+        <label for="usernameBox">Username:</label>
+        <input type="email" id="usernameBox" placeholder="abcd69@example.com" />
+        <br /><br />
+        <label for="passwordBox">Password:</label>
+        <input
+          type="password"
+          id="passwordBox"
+          placeholder="Do not use 12345"
+        />
+        <br /><br />
+        <input type="submit" value="btn using Submit" />
+        <input type="button" value="btn using Button" />
+        <button>Classic btn</button>
+        <br /><br />
+        <input type="radio" name="Gender" id="maleRadio" />
+        <label for="maleRadio">Male♂️</label>
+        <input type="radio" name="Gender" id="femaleRadio" />
+        <label for="femaleRadio">Female♀️</label>
+        <input type="radio" name="Gender" id="otherRadio" />
+        <label for="otherRadio">Others🏳️‍🌈</label>
+
+        <br /><br />
+        <label for="yess">Yes✅</label>
+        <input type="checkbox" name="YN" id="yess" />
+        <label for="naah">No❎</label>
+        <input type="checkbox" name="YN" id="naah" />
+        <br /><br />
+        <label for="datePicker">Choose DOB</label>
+        <input type="date" id="datePicker" />
+        <br /><br />
+        <label for="colorPicker">Choose Color</label>
+        <input type="color" id="colorPicker" />
+        <br /><br />
+        <!-- ....lot more other more specific types of input tags are there -->
+      </fieldset>
+      <fieldset>
+        <legend>More in forms</legend>
+        <label for="favFruit">Ryuk's Favorite fruit </label>
+        <select name="diffFruits" id="fruits">
+          <option value="Banana">Banana:🍌</option>
+          <option value="Mango">Mango:🥭</option>
+          <option value="Apple">Apple:🍎</option>
+        </select>
+        <label for="threeOptSelector">which u like the most in front-end</label>
+        <select name="baseComponents" id="threeOptSelector" multiple>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Javascript">Javascript</option>
+        </select>
+        <h5>
+          Use CTRL+Select to select multiple options using multiple attribute
+        </h5>
+        <br />
+        <!-- textarea and input:text are different according to container size -->
+        <textarea
+          name="paragraph"
+          id="thoughts"
+          cols="50"
+          rows="10"
+          placeholder="Enter Text Here...."
+        ></textarea>
+        <label for="thoughts">Write Your thoughts here🤔</label>
+        <br />
+        <label for="photo">Select Your Cute Photo❤️📸</label>
+        <input type="file" name="selectfile" id="photo" />
+        <br />
+        <!-- image to btn my favorite one -->
+        <input
+          type="image"
+          src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png"
+          alt="HTML5"
+          height="100px"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>

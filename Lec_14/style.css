@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Orbitron:wght@500&display=swap");
+
+#headingOfPage {
+  text-align: center;
+  background-color: cyan;
+  color: rgb(53, 83, 181);
+}
+p.firstPara {
+  font-family: "Kablammo", cursive;
+  background-color: rgb(32, 156, 209);
+}
+p {
+  line-height: 59px;
+  font-family: "Orbitron", sans-serif;
+}
+#spanText {
+  font-style: italic;
+  font-weight: 900;
+  font-size: larger;
+}
+p.secondPara {
+  background-color: #f9a724c9;
+  color: rebeccapurple;
+}
+p.thirdPara {
+  background-color: rgba(34, 45, 67, 0.5);
+  font-variant: small-caps;
+}
+p.fourthPara {
+  font-stretch: extra-expanded;
+  background-color: hsla(132, 81%, 26%, 0.704);
+}
