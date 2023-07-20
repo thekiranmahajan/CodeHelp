@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  background-color: #839192;
+}
+article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+#ryuk {
+  float: left;
+  height: 30rem;
+}
+#lightWithBook {
+  float: right;
+  height: 25rem;
+}
+#kira {
+  float: right;
+  height: 30rem;
+}
+#deathnote {
+  clear: right;
+  height: 20rem;
+  overflow: auto;
+}
