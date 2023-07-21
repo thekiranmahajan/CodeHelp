@@ -20,11 +20,11 @@ article {
   height: 25rem;
 }
 #kira {
-  float: right;
-  height: 30rem;
+  float: left;
+  height: 19rem;
 }
 #deathnote {
-  clear: right;
-  height: 20rem;
+  clear: left;
+  height: 19rem;
   overflow: auto;
 }
